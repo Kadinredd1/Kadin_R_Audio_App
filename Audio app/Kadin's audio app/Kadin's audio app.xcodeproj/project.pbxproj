@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72A9922A24EEE4DD006452CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A9922924EEE4DD006452CC /* AppDelegate.swift */; };
+		72A9922C24EEE4DD006452CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A9922B24EEE4DD006452CC /* SceneDelegate.swift */; };
+		72A9922E24EEE4DD006452CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A9922D24EEE4DD006452CC /* ViewController.swift */; };
+		72A9923124EEE4DD006452CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72A9922F24EEE4DD006452CC /* Main.storyboard */; };
+		72A9923424EEE4DD006452CC /* Kadin_s_audio_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 72A9923224EEE4DD006452CC /* Kadin_s_audio_app.xcdatamodeld */; };
+		72A9923624EEE4DF006452CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72A9923524EEE4DF006452CC /* Assets.xcassets */; };
+		72A9923924EEE4DF006452CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72A9923724EEE4DF006452CC /* LaunchScreen.storyboard */; };
+		72A9924424EEE4DF006452CC /* Kadin_s_audio_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A9924324EEE4DF006452CC /* Kadin_s_audio_appTests.swift */; };
+		72A9924F24EEE4DF006452CC /* Kadin_s_audio_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A9924E24EEE4DF006452CC /* Kadin_s_audio_appUITests.swift */; };
+		72A9925D24EEEB4F006452CC /* HeyPal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 72A9925C24EEEB4F006452CC /* HeyPal.mp3 */; };
+		72A9925F24EEEB5D006452CC /* Screen Shot 2020-08-20 at 12.31.47 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 72A9925E24EEEB5D006452CC /* Screen Shot 2020-08-20 at 12.31.47 PM.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72A9924024EEE4DF006452CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72A9921E24EEE4DD006452CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72A9922524EEE4DD006452CC;
+			remoteInfo = "Kadin's audio app";
+		};
+		72A9924B24EEE4DF006452CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72A9921E24EEE4DD006452CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72A9922524EEE4DD006452CC;
+			remoteInfo = "Kadin's audio app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		72A9922624EEE4DD006452CC /* Kadin's audio app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kadin's audio app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72A9922924EEE4DD006452CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		72A9922B24EEE4DD006452CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		72A9922D24EEE4DD006452CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		72A9923024EEE4DD006452CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		72A9923324EEE4DD006452CC /* Kadin_s_audio_app.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Kadin_s_audio_app.xcdatamodel; sourceTree = "<group>"; };
+		72A9923524EEE4DF006452CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72A9923824EEE4DF006452CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		72A9923A24EEE4DF006452CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72A9923F24EEE4DF006452CC /* Kadin's audio appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kadin's audio appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72A9924324EEE4DF006452CC /* Kadin_s_audio_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kadin_s_audio_appTests.swift; sourceTree = "<group>"; };
+		72A9924524EEE4DF006452CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72A9924A24EEE4DF006452CC /* Kadin's audio appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kadin's audio appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72A9924E24EEE4DF006452CC /* Kadin_s_audio_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kadin_s_audio_appUITests.swift; sourceTree = "<group>"; };
+		72A9925024EEE4DF006452CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72A9925C24EEEB4F006452CC /* HeyPal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HeyPal.mp3; sourceTree = "<group>"; };
+		72A9925E24EEEB5D006452CC /* Screen Shot 2020-08-20 at 12.31.47 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2020-08-20 at 12.31.47 PM.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72A9922324EEE4DD006452CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72A9923C24EEE4DF006452CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72A9924724EEE4DF006452CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72A9921D24EEE4DD006452CC = {
+			isa = PBXGroup;
+			children = (
+				72A9922824EEE4DD006452CC /* Kadin's audio app */,
+				72A9924224EEE4DF006452CC /* Kadin's audio appTests */,
+				72A9924D24EEE4DF006452CC /* Kadin's audio appUITests */,
+				72A9922724EEE4DD006452CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72A9922724EEE4DD006452CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72A9922624EEE4DD006452CC /* Kadin's audio app.app */,
+				72A9923F24EEE4DF006452CC /* Kadin's audio appTests.xctest */,
+				72A9924A24EEE4DF006452CC /* Kadin's audio appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72A9922824EEE4DD006452CC /* Kadin's audio app */ = {
+			isa = PBXGroup;
+			children = (
+				72A9922924EEE4DD006452CC /* AppDelegate.swift */,
+				72A9922B24EEE4DD006452CC /* SceneDelegate.swift */,
+				72A9922D24EEE4DD006452CC /* ViewController.swift */,
+				72A9925E24EEEB5D006452CC /* Screen Shot 2020-08-20 at 12.31.47 PM.png */,
+				72A9922F24EEE4DD006452CC /* Main.storyboard */,
+				72A9923524EEE4DF006452CC /* Assets.xcassets */,
+				72A9925C24EEEB4F006452CC /* HeyPal.mp3 */,
+				72A9923724EEE4DF006452CC /* LaunchScreen.storyboard */,
+				72A9923A24EEE4DF006452CC /* Info.plist */,
+				72A9923224EEE4DD006452CC /* Kadin_s_audio_app.xcdatamodeld */,
+			);
+			path = "Kadin's audio app";
+			sourceTree = "<group>";
+		};
+		72A9924224EEE4DF006452CC /* Kadin's audio appTests */ = {
+			isa = PBXGroup;
+			children = (
+				72A9924324EEE4DF006452CC /* Kadin_s_audio_appTests.swift */,
+				72A9924524EEE4DF006452CC /* Info.plist */,
+			);
+			path = "Kadin's audio appTests";
+			sourceTree = "<group>";
+		};
+		72A9924D24EEE4DF006452CC /* Kadin's audio appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				72A9924E24EEE4DF006452CC /* Kadin_s_audio_appUITests.swift */,
+				72A9925024EEE4DF006452CC /* Info.plist */,
+			);
+			path = "Kadin's audio appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72A9922524EEE4DD006452CC /* Kadin's audio app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72A9925324EEE4DF006452CC /* Build configuration list for PBXNativeTarget "Kadin's audio app" */;
+			buildPhases = (
+				72A9922224EEE4DD006452CC /* Sources */,
+				72A9922324EEE4DD006452CC /* Frameworks */,
+				72A9922424EEE4DD006452CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kadin's audio app";
+			productName = "Kadin's audio app";
+			productReference = 72A9922624EEE4DD006452CC /* Kadin's audio app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		72A9923E24EEE4DF006452CC /* Kadin's audio appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72A9925624EEE4DF006452CC /* Build configuration list for PBXNativeTarget "Kadin's audio appTests" */;
+			buildPhases = (
+				72A9923B24EEE4DF006452CC /* Sources */,
+				72A9923C24EEE4DF006452CC /* Frameworks */,
+				72A9923D24EEE4DF006452CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72A9924124EEE4DF006452CC /* PBXTargetDependency */,
+			);
+			name = "Kadin's audio appTests";
+			productName = "Kadin's audio appTests";
+			productReference = 72A9923F24EEE4DF006452CC /* Kadin's audio appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		72A9924924EEE4DF006452CC /* Kadin's audio appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72A9925924EEE4DF006452CC /* Build configuration list for PBXNativeTarget "Kadin's audio appUITests" */;
+			buildPhases = (
+				72A9924624EEE4DF006452CC /* Sources */,
+				72A9924724EEE4DF006452CC /* Frameworks */,
+				72A9924824EEE4DF006452CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72A9924C24EEE4DF006452CC /* PBXTargetDependency */,
+			);
+			name = "Kadin's audio appUITests";
+			productName = "Kadin's audio appUITests";
+			productReference = 72A9924A24EEE4DF006452CC /* Kadin's audio appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72A9921E24EEE4DD006452CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Kadin Redd";
+				TargetAttributes = {
+					72A9922524EEE4DD006452CC = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					72A9923E24EEE4DF006452CC = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 72A9922524EEE4DD006452CC;
+					};
+					72A9924924EEE4DF006452CC = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 72A9922524EEE4DD006452CC;
+					};
+				};
+			};
+			buildConfigurationList = 72A9922124EEE4DD006452CC /* Build configuration list for PBXProject "Kadin's audio app" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72A9921D24EEE4DD006452CC;
+			productRefGroup = 72A9922724EEE4DD006452CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72A9922524EEE4DD006452CC /* Kadin's audio app */,
+				72A9923E24EEE4DF006452CC /* Kadin's audio appTests */,
+				72A9924924EEE4DF006452CC /* Kadin's audio appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72A9922424EEE4DD006452CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72A9923924EEE4DF006452CC /* LaunchScreen.storyboard in Resources */,
+				72A9923624EEE4DF006452CC /* Assets.xcassets in Resources */,
+				72A9923124EEE4DD006452CC /* Main.storyboard in Resources */,
+				72A9925F24EEEB5D006452CC /* Screen Shot 2020-08-20 at 12.31.47 PM.png in Resources */,
+				72A9925D24EEEB4F006452CC /* HeyPal.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72A9923D24EEE4DF006452CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72A9924824EEE4DF006452CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72A9922224EEE4DD006452CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72A9923424EEE4DD006452CC /* Kadin_s_audio_app.xcdatamodeld in Sources */,
+				72A9922E24EEE4DD006452CC /* ViewController.swift in Sources */,
+				72A9922A24EEE4DD006452CC /* AppDelegate.swift in Sources */,
+				72A9922C24EEE4DD006452CC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72A9923B24EEE4DF006452CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72A9924424EEE4DF006452CC /* Kadin_s_audio_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72A9924624EEE4DF006452CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72A9924F24EEE4DF006452CC /* Kadin_s_audio_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		72A9924124EEE4DF006452CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72A9922524EEE4DD006452CC /* Kadin's audio app */;
+			targetProxy = 72A9924024EEE4DF006452CC /* PBXContainerItemProxy */;
+		};
+		72A9924C24EEE4DF006452CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72A9922524EEE4DD006452CC /* Kadin's audio app */;
+			targetProxy = 72A9924B24EEE4DF006452CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		72A9922F24EEE4DD006452CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72A9923024EEE4DD006452CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		72A9923724EEE4DF006452CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72A9923824EEE4DF006452CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72A9925124EEE4DF006452CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		72A9925224EEE4DF006452CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72A9925424EEE4DF006452CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kadin's audio app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.genesysworks.Kadin-s-audio-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72A9925524EEE4DF006452CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kadin's audio app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.genesysworks.Kadin-s-audio-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		72A9925724EEE4DF006452CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kadin's audio appTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.genesysworks.Kadin-s-audio-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kadin's audio app.app/Kadin's audio app";
+			};
+			name = Debug;
+		};
+		72A9925824EEE4DF006452CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kadin's audio appTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.genesysworks.Kadin-s-audio-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kadin's audio app.app/Kadin's audio app";
+			};
+			name = Release;
+		};
+		72A9925A24EEE4DF006452CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kadin's audio appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.genesysworks.Kadin-s-audio-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kadin's audio app";
+			};
+			name = Debug;
+		};
+		72A9925B24EEE4DF006452CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kadin's audio appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.genesysworks.Kadin-s-audio-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kadin's audio app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72A9922124EEE4DD006452CC /* Build configuration list for PBXProject "Kadin's audio app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72A9925124EEE4DF006452CC /* Debug */,
+				72A9925224EEE4DF006452CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72A9925324EEE4DF006452CC /* Build configuration list for PBXNativeTarget "Kadin's audio app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72A9925424EEE4DF006452CC /* Debug */,
+				72A9925524EEE4DF006452CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72A9925624EEE4DF006452CC /* Build configuration list for PBXNativeTarget "Kadin's audio appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72A9925724EEE4DF006452CC /* Debug */,
+				72A9925824EEE4DF006452CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72A9925924EEE4DF006452CC /* Build configuration list for PBXNativeTarget "Kadin's audio appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72A9925A24EEE4DF006452CC /* Debug */,
+				72A9925B24EEE4DF006452CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		72A9923224EEE4DD006452CC /* Kadin_s_audio_app.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				72A9923324EEE4DD006452CC /* Kadin_s_audio_app.xcdatamodel */,
+			);
+			currentVersion = 72A9923324EEE4DD006452CC /* Kadin_s_audio_app.xcdatamodel */;
+			path = Kadin_s_audio_app.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 72A9921E24EEE4DD006452CC /* Project object */;
+}
